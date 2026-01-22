@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>AI Resume & Portfolio Builder</h2>
+
+<input type="text" id="name" placeholder="Name">
+<input type="email" id="email" placeholder="Email">
+<input type="text" id="phone" placeholder="Phone">
+<input type="text" id="job_role" placeholder="Job Role">
+
+<textarea id="objective" placeholder="Career Objective"></textarea>
+<textarea id="education" placeholder="Education"></textarea>
+<textarea id="skills" placeholder="Skills"></textarea>
+<textarea id="projects" placeholder="Projects"></textarea>
+<textarea id="certifications" placeholder="Certifications"></textarea>
+
+<button onclick="generateResume()">Generate</button>
+
+<h3>Resume</h3>
+<pre id="resume"></pre>
+
+<h3>Cover Letter</h3>
+<pre id="cover"></pre>
+
+<script src="script.js"></script>
+</body>
+</html>
